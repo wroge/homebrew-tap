@@ -2,9 +2,9 @@
 class Wms < Formula
   desc "A command-line-tool to simplify the use of Web Map Services."
   homepage "https://github.com/wroge/wms"
-  url "https://github.com/wroge/wms/releases/download/v0.0.13/wms_0.0.13_MacOS_x86_64.tar.gz"
-  version "0.0.13"
-  sha256 "611ff2c83fb4f80becf6bd00600f9da9873bb4ab83f7181f0fca2f140383ea3a"
+  url "https://github.com/wroge/wms/releases/download/v0.0.14/wms_0.0.14_MacOS_x86_64.tar.gz"
+  version "0.0.14"
+  sha256 "6ce4cc0c3a59746bb0aa9aa45d288e0e4a138cc4db3325687b96c82a88f22550"
 
   def install
     bin.install "wms"
