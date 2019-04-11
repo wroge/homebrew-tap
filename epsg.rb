@@ -4,7 +4,7 @@ class Epsg < Formula
   homepage "https://github.com/wroge/epsg/tree/master/epsg"
   url "https://github.com/wroge/epsg/releases/download/v1.0.0/epsg_1.0.0_MacOS_x86_64.tar.gz"
   version "1.0.0"
-  sha256 "c614f86a499d3ae03783670dd91f932df0f89f304bac5543cf6a95d4ee383f80"
+  sha256 "233cc3e4b207cdb1f078039f619d43e1d5b0525d17392c1b6461f132634c1e2f"
 
   def install
     bin.install "epsg"
