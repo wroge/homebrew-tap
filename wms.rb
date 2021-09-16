@@ -5,33 +5,33 @@
 class Wms < Formula
   desc "A command-line-tool to simplify the use of Web Map Services."
   homepage "https://github.com/wroge/wms"
-  version "0.0.17"
+  version "0.0.18"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/wroge/wms/releases/download/v0.0.17/wms_Darwin_x86_64.tar.gz"
-      sha256 "8ffc1fdf7e56db5637c0e542a70185ddcd7ef3a54fd5cc4f010d2d174457e83e"
+      url "https://github.com/wroge/wms/releases/download/v0.0.18/wms_Darwin_x86_64.tar.gz"
+      sha256 "2775ad8539aadba26f4e9ffa618c268891464292562df75ef78d31972382f0d5"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/wroge/wms/releases/download/v0.0.17/wms_Darwin_arm64.tar.gz"
-      sha256 "a7b11f07171fd9e438e7afef051f8d2eb2737a80310480cf1d63db82e48277cb"
+      url "https://github.com/wroge/wms/releases/download/v0.0.18/wms_Darwin_arm64.tar.gz"
+      sha256 "5e4ea4b15eef918541310f28b2a80d4d9a90021665e6651243d53cfd5695bb40"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/wroge/wms/releases/download/v0.0.17/wms_Linux_x86_64.tar.gz"
-      sha256 "ab5d43b28076184a48704811583dadda2ad0ca96b36d3353a6676353d7b2a9e1"
+      url "https://github.com/wroge/wms/releases/download/v0.0.18/wms_Linux_x86_64.tar.gz"
+      sha256 "a607ea70f301a05ff72b703fdd716c55d56b9f938e64fd1f4ddbf09d4aa7a179"
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/wroge/wms/releases/download/v0.0.17/wms_Linux_armv6.tar.gz"
-      sha256 "62590fe2aae6645850472fe1aca693e2a2538479dfefabd701f67cc994e47a60"
+      url "https://github.com/wroge/wms/releases/download/v0.0.18/wms_Linux_armv6.tar.gz"
+      sha256 "979f2836cb06660d9c6b2994f0ac8c55c6a0f7b88e44fa97e9c4a70ae836f6a3"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/wroge/wms/releases/download/v0.0.17/wms_Linux_arm64.tar.gz"
-      sha256 "fb1d5cbe076887d3ec40389fdb8ae245d7b1426b13fb4a378e57f72fd136aa2b"
+      url "https://github.com/wroge/wms/releases/download/v0.0.18/wms_Linux_arm64.tar.gz"
+      sha256 "5e75a86f21dc100ca2808c2545aaabd0c16db1cab30042917b31eaa35d702d94"
     end
   end
 
